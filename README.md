@@ -17,7 +17,7 @@ The server listens for incoming connections and saves transmitted files to a des
 **1. Start the Server**
 The server must be started first so it can wait for a client connection. 
 
-* **Syntax:** `python server.py --host <IP_ADDRESS> --port <PORT> --dir <DIRECTORY_PATH>`
+* **Syntax:** `python server.py --host <IPv4_ADDRESS> --port <PORT> --dir <DIRECTORY_PATH>`
 * **Example (Copy/Paste):**
   ```bash
   python server.py --host 127.0.0.1 --port 8080 --dir ./received_files
@@ -26,7 +26,7 @@ The server must be started first so it can wait for a client connection.
 **2. Run the Client**
 Open a second, separate terminal window. Run the client to connect to the server and transmit a file.
 
-* **Syntax:** `python client.py --host <IP_ADDRESS> --port <PORT> --file <FILE_PATH>`
+* **Syntax:** `python client.py --host <IPv4_ADDRESS> --port <PORT> --file <FILE_PATH>`
 * **Example (Copy/Paste):**
   ```bash
   python client.py --host 127.0.0.1 --port 8080 --file ./test_file.txt
