@@ -11,6 +11,8 @@ The server listens for incoming connections and saves transmitted files to a des
 * `client.py`: The Client implementation.
 * `test_app.py`: The automated integration test suite.
 
+## Requirements
+* Python >=3.12
 
 ## How to Run
 
